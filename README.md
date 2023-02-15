@@ -72,5 +72,5 @@ This project proposes to use the DQN, Double DQN, and Dueling DQN model to solve
 
 ## Reference
 
-For the process of parameter tuning and more details, please check out this [paper](https://github.com/marswon0/rl_test/blob/main/assets/paper/Solving%20the%20Lunar%20Lander%20with%20Deep%20Reinforcement%20Learning.pdf).
+For the process of parameter tuning and more details, please check out this [report paper](https://github.com/marswon0/rl_test/blob/main/assets/paper/Solving%20the%20Lunar%20Lander%20with%20Deep%20Reinforcement%20Learning.pdf).
 
