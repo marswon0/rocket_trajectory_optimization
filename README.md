@@ -4,7 +4,16 @@
 
 Model-free reinforcement learning has been applied to many challenging problems, especially when the environment is complex and hard to be modeled. Adapting deep learning techniques to the field of reinforcement learning introduces more alternatives while designing distinct policies and value functions. This project uses the DQN, Double DQN, and Dueling DQN models to solve the classic Rocket Trajectory Optimization problem. The environment is simulated by the LunarLander-v2 developed by [OpenAI Gym](https://www.gymlibrary.dev/environments/box2d/lunar_lander/). 
 
+This project trained a DQN as the baseline model for optimizing the trajectory. Followed by implementing the Double DQN and Dueling DQN on top of the baseline model. The simulation results showed no significant differences between these models in terms of their final score and converging time, but the Dueling DON has the most stable performance among other models.
+
+
 ![](https://github.com/marswon0/rl_test/blob/main/assets/images/lunar_lander.gif)
+
+
+## Reference
+
+For model training and hyperparameter tuning processes, please check out the [report paper written for this project](https://github.com/marswon0/rl_test/blob/main/assets/paper/Solving%20the%20Lunar%20Lander%20with%20Deep%20Reinforcement%20Learning.pdf).
+
 
 ## DQN
 
@@ -69,8 +78,4 @@ The Dueling DQN model converged in ~350 games of training, and reached an averag
 ## Conclusion
 
 This project proposes to use the DQN, Double DQN, and Dueling DQN model to solve the LunarLander-v2 environment. All three models converged into a final policy. Both the DQN and Dueling DQN scored near 280, and the Double DQN model scored around 260. Once the models converged to an optimal policy, the Dueling DQN model had a much more consistent performance compared to the other models.
-
-## Reference
-
-For the process of parameter tuning and more details, please check out this [report paper](https://github.com/marswon0/rl_test/blob/main/assets/paper/Solving%20the%20Lunar%20Lander%20with%20Deep%20Reinforcement%20Learning.pdf).
 
