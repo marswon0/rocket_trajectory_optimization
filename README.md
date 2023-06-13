@@ -12,7 +12,7 @@ This project trained a DQN as the baseline model for optimizing the trajectory. 
 
 ## Reference
 
-For model training and hyperparameter tuning processes, please check out the [report paper written for this project](https://github.com/marswon0/rl_test/blob/main/assets/paper/Solving%20the%20Lunar%20Lander%20with%20Deep%20Reinforcement%20Learning.pdf).
+For model training and hyperparameter tuning processes, please check out the [report paper written for this project](https://github.com/marswon0/rocket_trajectory_optimization/blob/main/assets/paper/Solving%20the%20Lunar%20Lander%20with%20Deep%20Reinforcement%20Learning.pdf).
 
 
 ## DQN
